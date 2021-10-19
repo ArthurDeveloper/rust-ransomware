@@ -10,7 +10,7 @@ fn read_file(file_path: &str) -> String {
     let mut file = File::open(file_path).expect("Wrong path dumbass!");
     let mut content = String::new();
     file.read_to_string(&mut content)
-        .expect("Woops! I got and error while trying to read the the file :( try again later!");
+        .expect("Woops! I got an error while trying to read the the file :( try again later!");
     return content;
 }
 
