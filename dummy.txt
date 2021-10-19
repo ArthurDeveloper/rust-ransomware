@@ -1,0 +1,2 @@
+hello i'm a dummy file just for tests
+i will be encrypted soon :(
