@@ -17,7 +17,7 @@ fn read_file(file_path: &str) -> String {
 fn encrypt(file_path: &str, output_file_path: &str) -> String {
 
     let clamp = |val: u16, min: u16, max:u16| -> u16 { 
-                                            if val < min { min } else if val > max { max } else { val }
+        if val < min { min } else if val > max { max } else { val }
     }; 
 
     let content = read_file(file_path);
